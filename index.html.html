@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+
+<head>
+    <!--Required meta tags-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!--Bootstrap CSS-->
+    <link href="styles_operation.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="bootstrap.css">
+    
+    <title>Operation Hours</title>
+</head>
+
+<body background="">
+    <div class="container-fluid">
+        <img src="sagt_logo.png" alt="sagt" class="img-fluid">
+    </div>
+    <div class="container-fluid bg-custom" id="meter-readings">
+        <div class="container-fluid text-black" id="RT-name"><p class="font-family-sans text-white">Welcome to RT35</p></div>
+        <div class="mb-3 row">
+            <label for="hoist" class="col-sm-2 col-form-label font-family-monospace" >Hoist Hours</label>
+            <div class="col-sm-3">
+                <p class="form-control" id="Hoist">000.0 hr</p>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="gantry" class="col-sm-2 col-form-label font-family-monospace">Gantry Hours</label>
+            <div class="col-sm-3">
+                <p class="form-control" id="Gantry">000.0 hr</p>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="trolly" class="col-sm-2 col-form-label font-family-monospace">Trolly Hours</label>
+            <div class="col-sm-3">
+                <p class="form-control" id="Trolly">000.0 hr</p>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="boom" class="col-sm-2 col-form-label font-family-monospace">Boom Hours</label>
+            <div class="col-sm-3">
+                <p class="form-control" id="Boom">000.0 hr</p>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="controlON" class="col-sm-2 col-form-label font-family-monospace">Control ON Hours</label>
+            <div class="col-sm-3">
+                <p class="form-control" id="Control">000.0 hr</p>
+            </div>
+        </div>
+        <div class="mb-3 row">
+            <label for="windspeed" class="col-sm-2 col-form-label font-family-monospace">Wind Speed</label>
+            <div class="col-sm-3">
+                <p class="form-control" id="Wind">00.0 m/s</p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid">
+        <img src="sagt_terminal.png" alt="sagt" class="img-fluid">
+    </div>
+
+    </table>
+   
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+</body>
+
+</html>
