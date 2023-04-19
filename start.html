@@ -1,0 +1,221 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+
+<head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta http-equiv="expires" content="-1">
+    <meta http-equiv="pragma" content="no-cache">
+    <meta http-equiv="cache-control" content="no-cache">
+    <link href="/CSS/Miniweb.css" rel="stylesheet" type="text/css">
+    <title>Miniweb Start Page</title>
+</head>
+
+<body scroll="auto">
+
+    <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#000053">
+        <tr>
+            <td width="129" height="76" valign="top">
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td>
+                            <img src="/Images/Siemens_Firmenmarke.gif" alt="Siemens" border="0">
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <td>
+                <!-- Stationsname einfuegen -->
+                <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td height="45"></td>
+                    </tr>
+                    <tr>
+                        <td height="31" class="ad_headline1">
+                            <font color="#ffffff">
+                                <!-- font ist da, um bei einer Anzeige OHNE CSS nicht schwarz auf schwarz anzuzeigen -->
+                                <span class="ad_headline1">
+                                    SIMATIC HMI Miniweb on HMI_Panel
+                                </span>
+                            </font>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+            <!-- rechter rand -->
+            <td width="33"></td>
+        </tr>
+    </table>
+
+
+    <table width="100%" border="0" cellpadding="0" cellspacing="0">
+        <tr>
+            <!-- linke Spalte Navigationsbereich -->
+            <td width="116" valign="top" bgcolor="BBBBFF" class="ad_nav_area">
+                <table width="116" border="0" cellspacing="0" cellpadding="0">
+                    <tr bgcolor="#b8b8ff">
+                        <td colspan="3" width="116" height="60" valign="top">
+                            <form style="padding:0px; margin:0px; border:0px; background:#b8b8ff" method="post"
+                                id="LogoutForm" name="LogoutForm" action="/FormLogin?LOGOUT"
+                                enctype="application/x-www-form-urlencoded">
+                                <table width="116" border="0" cellspacing="0" cellpadding="0">
+                                    <tr>
+                                        <td
+                                            style="padding: 6px 0 0 6px; font-size: 10px; color: #00005e; font-family: Arial, Helvetica, sans-serif;">
+                                            Welcome test<br>You are logged in.</td>
+                                    </tr>
+                                    <tr>
+                                        <td align="right"><input type="hidden" name="Redirection" value="/start.html" />
+                                            <input type="hidden" name="Cookie"
+                                                value="9F9CFrIaAJrjV8Jy4SAaKl7WktGRMKyy5/g9XUMkQx3DoX/TAAAJAAIAAADAqAABAAAAAAAAAAA&#x3d;" />
+                                            <input type="submit" value="Logout"
+                                                style="margin:3px 6px 6px 6px; padding:0px; border:0px; font-size:10px; color: #000080; background-color:#b8b8ff;text-decoration:underline;"><input
+                                                type='hidden' name='MultiUseToken'
+                                                value='AwcHZz4wBBnnUE9U0ANOV0BJ2jY=' />
+                                        </td>
+                                    </tr>
+                                </table>
+                            </form>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="19"></td>
+                    </tr>
+            
+                    <tr>
+                        <td width="8"></td>
+                        <td width="7"><img src="/Images/NaviPfeilweiss.gif" alt="" border="0"></td>
+                        <td width="101" class="ad_nav_link_selected">
+                            <font color="#ffffff">
+                                <!--- font ist da, um bei einer Anzeige OHNE CSS nicht schwarz anzuzeigen -->
+                                Start page </font>
+                        </td>
+                    </tr>
+                    <!--  Remote Control only if JavaScript is used -->
+                    <SCRIPT language="JavaScript">
+                        
+                        document.write("<tr><td colspan=\"3\" height=\"20\"></td></tr>");
+                        document.write("<tr> <td width=\"8\"></td>");
+                        document.write("<td width=\"7\"><img src=\"/Images/NaviPfeilblau.gif\" alt=\"\" border=\"0\"></td>");
+                        document.write("<td width=\"101\" class=\"ad_nav_link\"><a href=\"/RemoteControl.html\" class=\"ad_nav_link\">Remote Control</a></td>");
+                        document.write("</tr>");
+                        // -->
+                    </SCRIPT>
+                    <tr>
+                        <td colspan="3" height="20"></td>
+                    </tr>
+                    <tr>
+                        <td width="8"></td>
+                        <td width="7"><img src="/Images/NaviPfeilblau.gif" alt="" border="0"></td>
+                        <td width="101" class="ad_nav_link"><a href="operation_hours.html" class="ad_nav_link">Operational Hours</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20"></td>
+                    </tr>
+                    <tr>
+                        <td width="8"></td>
+                        <td width="7"><img src="/Images/NaviPfeilblau.gif" alt="" border="0"></td>
+                        <td width="101" class="ad_nav_link"><a href="/control.html" class="ad_nav_link">Control
+                                Functions</a></td>
+                    </tr>
+                    <tr>
+                        <td colspan="3" height="20"></td>
+                    </tr>
+                    <tr>
+                        <td width="8"></td>
+                        <td width="7"><img src="/Images/NaviPfeilblau.gif" alt="" border="0"></td>
+                        <td width="101" class="ad_nav_link"><a href="/StatusDetails.html" class="ad_nav_link">System
+                                Diagnostics</a></td>
+                    </tr>
+                    <!-- Browse only if JavaScript is used -->
+                    <SCRIPT language="JavaScript">
+                        
+                        document.write("<tr><td colspan=\"3\" height=\"20\"></td></tr>");
+                        document.write("<tr> <td width=\"8\"></td>");
+                        document.write("<td width=\"7\"><img src=\"/Images/NaviPfeilblau.gif\" alt=\"\" border=\"0\"></td>");
+                        document.write("<td width=\"101\" class=\"ad_nav_link\"><a href=\"/Browse.html\" class=\"ad_nav_link\">File Browser</a></td>");
+                        document.write("</tr>");
+                        
+                    </SCRIPT>
+                </table>
+            </td>
+
+            <!-- vertikaler Strich -->
+            <td width="2" bgcolor="#000053">
+                <table width="2" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="2"></td>
+                    </tr>
+                </table>
+            </td>
+
+            <!-- rechte Spalte Inhaltsbereich (drei vertikale Teile: Titel, Sekundaernavigation, Infobereich-->
+            <td valign="top" bgcolor="#e9e9fc">
+                <!-- Titel -->
+                <table width="100%" bgcolor="#c0c0db" border="0" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td width="11" height="7"></td>
+                        <td width="33" height="7"></td>
+                    </tr>
+                    <tr>
+                        <td width="11" height="46"></td>
+                        <td>
+                            <table width="100%" border="0" cellpadding="0" cellspacing="0">
+                                <tr>
+                                    <td height="46" valign="top" class="ad_headline2">Miniweb Start Page</td>
+                                    <td height="46" align="right">last update 03:29.33 01.03.2023</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+                <p style="margin-left:10px; margin-top:15px;">
+                    <font class="ad_headline2">Welcome on HMI_Panel</font> <br><br>
+                    <br>
+                    <font class="ad_headline2">Device Status of HMI_Panel</font><br>
+                    <b>The runtime is stopped</b><br><br>
+
+                <table border="1" class="sph_table" cellspacing="0" width="600">
+                    <tr>
+                        <th class="sph_th"><b>General Device Information</b></th>
+                    </tr>
+                    <tr>
+                        <td class="sph_td"><b>Device Type</b></td>
+                        <td class="sph_td">TP1500 Comfort V2&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="sph_td"><b>Image version</b></td>
+                        <td class="sph_td">V15.00.00.00_25.01&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="sph_td"><b>Bootloader version</b></td>
+                        <td class="sph_td">42949672.95&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="sph_td"><b>Bootloader release date</b></td>
+                        <td class="sph_td">21.3.2018&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="sph_td"><b>Device Name</b></td>
+                        <td class="sph_td">HMI_Panel&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="sph_td"><b>Build</b></td>
+                        <td class="sph_td">V1500.0000.2501.0001&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="sph_td"><b>MiniWeb_Build</b></td>
+                        <td class="sph_td">miniweb P05.03.01, build Nov 22 2017&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td class="sph_td"><b>SSLEAY_VERSION</b></td>
+                        <td class="sph_td">OpenSSL 1.0.2l 25 May 2017&nbsp;</td>
+                    </tr>
+                </table><br>
+
+                </p>
+            </td>
+        </tr>
+    </table>
+</body>
+
+</html>
